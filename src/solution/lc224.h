@@ -1,5 +1,6 @@
 #ifndef ALGORITHM_LC224_H
 #define ALGORITHM_LC224_H
+
 #include <main.h>
 
 // 224. 基本计算器
@@ -76,6 +77,5 @@ public:
 		cout << LC_224().calculate(s) << endl;
 	}
 };
-
 
 #endif //ALGORITHM_LC224_H
