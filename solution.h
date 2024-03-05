@@ -1,5 +1,6 @@
 #pragma once
 
-#include "src/solution/lc224.h"
-#include "src/solution/lc227.h"
+#include "lc1976.h"
+#include "lc224.h"
+#include "lc227.h"
 

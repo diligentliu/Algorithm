@@ -1,7 +1,7 @@
 #ifndef ALGORITHM_LC224_H
 #define ALGORITHM_LC224_H
 
-#include <main.h>
+#include "main.h"
 
 // 224. 基本计算器
 class LC_224 {

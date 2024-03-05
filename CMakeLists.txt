@@ -7,8 +7,8 @@ file(GLOB_RECURSE HEADER_FILES "src/solution/*.h")
 
 set(ALL_INCLUDES "")
 foreach(HEADER ${HEADER_FILES})
-    file(RELATIVE_PATH REL_HEADER ${CMAKE_SOURCE_DIR} ${HEADER})
-    set(ALL_INCLUDES "${ALL_INCLUDES}#include \"${REL_HEADER}\"\n")
+    get_filename_component(FILE_NAME ${HEADER} NAME)
+    set(ALL_INCLUDES "${ALL_INCLUDES}#include \"${FILE_NAME}\"\n")
 endforeach()
 
 message(STATUS "ALL_INCLUDES: \n${ALL_INCLUDES}")
@@ -16,11 +16,11 @@ configure_file(solution.h.in  ${CMAKE_CURRENT_SOURCE_DIR}/solution.h @ONLY)
 
 include_directories(
         ./
-        src/include
+        include
         src/solution
 )
 
-file(GLOB_RECURSE SOURCES "./src/*.*" "src/solution/*.*" "./src/include/*.*")
+file(GLOB_RECURSE SOURCES "./src/*.*" "src/solution/*.*" "include/*.*")
 
 add_executable(
         Algorithm
