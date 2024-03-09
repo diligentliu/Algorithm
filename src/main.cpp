@@ -2,7 +2,6 @@
 #include "solution.h"
 
 int main() {
-	// LC_2834::test();
-	MT_1_4().solution();
+	LC_2386::test();
 	return 0;
 }
