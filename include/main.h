@@ -1,7 +1,7 @@
 #ifndef ALGORITHM_MAIN_H
 #define ALGORITHM_MAIN_H
 
-#include <bits/stdc++.h>
+#include "stdc++.h"
 #include "TreeNode.h"
 
 using namespace std;
