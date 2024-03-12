@@ -1,4 +1,4 @@
-#include "include/TreeNode.h"
+#include "TreeNode.h"
 
 TreeNode *TreeNode::rdeserialize(std::vector<std::string> &dataArray) {
 	if (dataArray.empty() || dataArray[0] == "null") {

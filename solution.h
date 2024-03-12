@@ -2,6 +2,7 @@
 
 #include "lc1261.h"
 #include "lc146.h"
+#include "lc148.h"
 #include "lc1976.h"
 #include "lc224.h"
 #include "lc227.h"
