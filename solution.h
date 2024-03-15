@@ -6,6 +6,7 @@
 #include "lc1976.h"
 #include "lc224.h"
 #include "lc227.h"
+#include "lc2312.h"
 #include "lc2386.h"
 #include "lc2834.h"
 #include "mt11.h"
