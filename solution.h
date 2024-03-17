@@ -10,6 +10,7 @@
 #include "lc2386.h"
 #include "lc2684.h"
 #include "lc2834.h"
+#include "lc310.h"
 #include "mt11.h"
 #include "mt12.h"
 #include "mt13.h"
