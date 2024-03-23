@@ -1,5 +1,6 @@
 #pragma once
 
+#include "ding2.h"
 #include "lc1261.h"
 #include "lc146.h"
 #include "lc148.h"
