@@ -5,11 +5,11 @@
 
 class LC_2312 {
 public:
-	long long sellingWood(int m, int n, vector<vector<int>>& prices) {
+	long long sellingWood(int m, int n, vector<vector<int>> &prices) {
 		long long dp[m + 1][n + 1];
 		memset(dp, 0, sizeof(dp));
 		unordered_map<long long, int> um;
-		for (auto &price : prices) {
+		for (auto &price: prices) {
 			um[(long long) price[0] << 32 | price[1]] = price[2];
 		}
 
@@ -32,7 +32,9 @@ public:
 
 	static void test() {
 		int m = 3, n = 5;
-		vector<vector<int>> prices = {{1, 4, 2}, {2, 2, 7}, {2, 1, 3}};
+		vector<vector<int>> prices = {{1, 4, 2},
+		                              {2, 2, 7},
+		                              {2, 1, 3}};
 		std::cout << LC_2312().sellingWood(m, n, prices) << std::endl;
 	}
 };

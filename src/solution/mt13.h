@@ -18,12 +18,12 @@ public:
 			for (int j = 0; j < n; ++j) {
 				int num = graph[i][j] - '0';
 				per_sum[i + 1][j + 1] = per_sum[i + 1][j] + per_sum[i][j + 1]
-						- per_sum[i][j] + (graph[i][j] - '0');
+				                        - per_sum[i][j] + (graph[i][j] - '0');
 				for (int k = 2; k <= n; k += 2) {
 					int cnt = k * k / 2;
 					if (i + 1 - k >= 0 && j + 1 - k >= 0) {
 						ans[k] += (per_sum[i + 1][j + 1] + per_sum[i + 1 - k][j + 1 - k]
-								- per_sum[i + 1][j + 1 - k] - per_sum[i + 1 - k][j + 1] == cnt);
+						           - per_sum[i + 1][j + 1 - k] - per_sum[i + 1 - k][j + 1] == cnt);
 					} else {
 						break;
 					}

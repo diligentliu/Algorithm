@@ -89,7 +89,7 @@ public:
 		return r;
 	}
 
-	ListNode *sortList(ListNode* head) {
+	ListNode *sortList(ListNode *head) {
 		if (head == nullptr) {
 			return head;
 		}

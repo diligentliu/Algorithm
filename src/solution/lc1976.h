@@ -45,7 +45,7 @@ public:
 		}
 	}
 	 */
-	int countPaths(int n, vector<vector<int>>& roads) {
+	int countPaths(int n, vector<vector<int>> &roads) {
 		vector<vector<pair<int, int>>> graph(n);
 		for (auto &road: roads) {
 			int x = road[0], y = road[1], d = road[2];
@@ -83,7 +83,16 @@ public:
 
 	static void test() {
 		int n = 7;
-		vector<vector<int>> roads = {{0,6,7}, {0,1,2}, {1,2,3}, {1,3,3}, {6,3,3}, {3,5,1}, {6,5,1}, {2,5,1}, {0,4,5}, {4,6,2}};
+		vector<vector<int>> roads = {{0, 6, 7},
+		                             {0, 1, 2},
+		                             {1, 2, 3},
+		                             {1, 3, 3},
+		                             {6, 3, 3},
+		                             {3, 5, 1},
+		                             {6, 5, 1},
+		                             {2, 5, 1},
+		                             {0, 4, 5},
+		                             {4, 6, 2}};
 		cout << LC_1976().countPaths(n, roads) << endl;
 	}
 };

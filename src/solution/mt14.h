@@ -18,7 +18,7 @@ public:
 		int n, k;
 		cin >> n >> k;
 		vector<int> nums(n);
-		for (int& num : nums) {
+		for (int &num: nums) {
 			cin >> num;
 		}
 

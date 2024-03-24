@@ -21,7 +21,7 @@ public:
 	int calculate(string str) {
 		int m = str.size();
 		string s;
-		for (char &c : str) {
+		for (char &c: str) {
 			if (c != ' ') {
 				s.push_back(c);
 			}

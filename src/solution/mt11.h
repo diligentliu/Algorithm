@@ -10,7 +10,7 @@ class MT_1_1 {
 		string s;
 		cin >> s;
 		int ans = 0;
-		for (char &c : s) {
+		for (char &c: s) {
 			if (c == 'M' || c == 'T') {
 				ans++;
 			}

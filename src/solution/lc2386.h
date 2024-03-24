@@ -5,9 +5,9 @@
 
 class LC_2386 {
 public:
-	long long kSum(vector<int>& nums, int k) {
+	long long kSum(vector<int> &nums, int k) {
 		long long sum = 0;
-		for (int &num : nums) {
+		for (int &num: nums) {
 			if (num >= 0) {
 				sum += num;
 			} else {

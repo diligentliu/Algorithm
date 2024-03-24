@@ -6,7 +6,7 @@
 class FindElements {
 	TreeNode *root;
 public:
-	FindElements(TreeNode* root) : root(root) { }
+	FindElements(TreeNode *root) : root(root) {}
 
 	bool find(int target) {
 		target++;

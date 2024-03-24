@@ -5,7 +5,7 @@
 
 class LC_2617 {
 public:
-	int minimumVisitedCells(vector<vector<int>>& grid) {
+	int minimumVisitedCells(vector<vector<int>> &grid) {
 		int m = grid.size(), n = grid[0].size();
 		vector<vector<int>> dp(m, vector<int>(n, -1));
 		dp[0][0] = 1;
@@ -22,14 +22,14 @@ public:
 
 				if (!row[i].empty()) {
 					dp[i][j] = dp[i][j] == -1 ?
-							dp[i][row[i].top().second] + 1
-							: min(dp[i][j], dp[i][row[i].top().second] + 1);
+					           dp[i][row[i].top().second] + 1
+					                          : min(dp[i][j], dp[i][row[i].top().second] + 1);
 				}
 
 				if (!col[j].empty()) {
 					dp[i][j] = dp[i][j] == -1 ?
 					           dp[col[j].top().second][j] + 1
-	                           : min(dp[i][j], dp[col[j].top().second][j] + 1);
+					                          : min(dp[i][j], dp[col[j].top().second][j] + 1);
 				}
 
 				if (dp[i][j] != -1) {
@@ -43,11 +43,18 @@ public:
 	}
 
 	static void test() {
-		vector<vector<int>> grid = {{3, 4, 2, 1}, {4, 2, 3, 1}, {2, 1, 0, 0}, {2, 4, 0, 0}};
+		vector<vector<int>> grid = {{3, 4, 2, 1},
+		                            {4, 2, 3, 1},
+		                            {2, 1, 0, 0},
+		                            {2, 4, 0, 0}};
 		std::cout << LC_2617().minimumVisitedCells(grid) << std::endl;
-		grid = {{3, 4, 2, 1}, {4, 2, 1, 1}, {2, 1, 1, 0}, {3, 4, 1, 0}};
+		grid = {{3, 4, 2, 1},
+		        {4, 2, 1, 1},
+		        {2, 1, 1, 0},
+		        {3, 4, 1, 0}};
 		std::cout << LC_2617().minimumVisitedCells(grid) << std::endl;
-		grid = {{2, 1, 0}, {1, 0, 0}};
+		grid = {{2, 1, 0},
+		        {1, 0, 0}};
 		std::cout << LC_2617().minimumVisitedCells(grid) << std::endl;
 	}
 };

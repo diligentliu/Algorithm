@@ -7,7 +7,7 @@ class FrequencyTracker {
 	unordered_map<int, int> nums;
 	unordered_map<int, int> freq;
 public:
-	FrequencyTracker() { }
+	FrequencyTracker() {}
 
 	void add(int number) {
 		--freq[nums[number]];
