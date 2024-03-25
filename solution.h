@@ -16,6 +16,7 @@
 #include "lc2834.h"
 #include "lc310.h"
 #include "lc322.h"
+#include "lc518.h"
 #include "mt11.h"
 #include "mt12.h"
 #include "mt13.h"
