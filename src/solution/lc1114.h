@@ -20,8 +20,13 @@ class LC_1114 {
 	sem_t first_done, second_done;
 public:
 	LC_1114() {
+#if defined(__APPLE__)
+		first_done = sem_t();
+		second_done = sem_t();
+#elif defined(__linux__ || __unix__ || __posix__)
 		sem_init(&first_done, 0, 0);
 		sem_init(&second_done, 0, 0);
+#endif
 	}
 
 	void first(function<void()> printFirst) {
