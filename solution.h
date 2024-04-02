@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ding2.h"
+#include "lc1114.h"
 #include "lc1261.h"
 #include "lc146.h"
 #include "lc148.h"
@@ -18,6 +19,7 @@
 #include "lc322.h"
 #include "lc518.h"
 #include "lc75.h"
+#include "lcr170.h"
 #include "mt11.h"
 #include "mt12.h"
 #include "mt13.h"
