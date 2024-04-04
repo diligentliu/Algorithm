@@ -1,6 +1,8 @@
 #pragma once
 
 #include "CF_218_2_E.h"
+#include "CF_936_2_A.h"
+#include "CF_936_2_B.h"
 #include "P1095.h"
 #include "ding2.h"
 #include "lc1261.h"
