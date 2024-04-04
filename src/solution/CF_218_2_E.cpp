@@ -1,6 +1,3 @@
-#ifndef ALGORITHM_CF_218_2_E_H
-#define ALGORITHM_CF_218_2_E_H
-
 /**
  * https://codeforces.com/problemset/problem/371/E
  *
@@ -13,7 +10,7 @@
 #include <numeric>
 #include <algorithm>
 
-void cf_218_2_e() {
+void CF_218_2_E() {
 	int n, k;
 	std::cin >> n;
 	std::vector<int> nums(n);
@@ -52,9 +49,7 @@ void cf_218_2_e() {
 }
 /*
 	int main() {
-		cf_218_2_e();
+		CF_218_2_E();
 		return 0;
 	}
  */
-
-#endif //ALGORITHM_CF_218_2_E_H
