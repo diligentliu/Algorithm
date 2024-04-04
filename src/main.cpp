@@ -2,6 +2,6 @@
 #include "solution.h"
 
 int main() {
-	LCR_170::test();
+	LC_2192::test();
 	return 0;
 }
