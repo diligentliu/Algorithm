@@ -2,6 +2,7 @@
 
 #include "P1095.h"
 #include "ding2.h"
+#include "lc1026.h"
 #include "lc1261.h"
 #include "lc146.h"
 #include "lc148.h"
