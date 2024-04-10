@@ -8,6 +8,7 @@
 #include "lc146.h"
 #include "lc148.h"
 #include "lc1600.h"
+#include "lc1702.h"
 #include "lc1793.h"
 #include "lc1976.h"
 #include "lc2192.h"
