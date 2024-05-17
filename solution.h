@@ -27,6 +27,7 @@
 #include "lc42.h"
 #include "lc518.h"
 #include "lc75.h"
+#include "lc826.h"
 #include "lcr170.h"
 #include "mt11.h"
 #include "mt12.h"

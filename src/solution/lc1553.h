@@ -21,6 +21,10 @@ public:
 	int minDays(int n) {
 		return dfs(n);
 	}
+
+	static void test() {
+		std::cout << Solution().minDays(3) << endl;
+	}
 };
 }
 
