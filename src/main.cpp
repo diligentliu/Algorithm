@@ -2,6 +2,6 @@
 #include "solution.h"
 
 int main() {
-	LC_826::Solution::test();
-	return 0;
+    LC_826::Solution::test();
+    return 0;
 }

@@ -5,18 +5,18 @@
 using namespace std;
 
 void CF_936_2_A() {
-	int m, n;
-	cin >> m;
-	for (int i = 0; i < m; ++i) {
-		cin >> n;
-		vector<int> nums(n);
-		for (int j = 0; j < n; ++j) {
-			cin >> nums[j];
-		}
-		sort(nums.begin(), nums.end());
-		int mid = nums[(n - 1) >> 1];
-		cout << upper_bound(nums.begin(), nums.end(), mid) - nums.begin() - ((n - 1) >> 1) << endl;
-	}
+    int m, n;
+    cin >> m;
+    for (int i = 0; i < m; ++i) {
+        cin >> n;
+        vector<int> nums(n);
+        for (int j = 0; j < n; ++j) {
+            cin >> nums[j];
+        }
+        sort(nums.begin(), nums.end());
+        int mid = nums[(n - 1) >> 1];
+        cout << upper_bound(nums.begin(), nums.end(), mid) - nums.begin() - ((n - 1) >> 1) << endl;
+    }
 }
 /*
 int main() {

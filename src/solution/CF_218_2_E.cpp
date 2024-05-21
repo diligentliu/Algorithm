@@ -11,41 +11,41 @@
 #include <algorithm>
 
 void CF_218_2_E() {
-	int n, k;
-	std::cin >> n;
-	std::vector<int> nums(n);
-	for (int i = 0; i < n; ++i) {
-		std::cin >> nums[i]; 
-	}
-	std::vector<int> indices(n);
-	std::iota(indices.begin(), indices.end(), 0);
-	std::sort(indices.begin(), indices.end(), [&](const int &i, const int &j) {
-		return nums[i] < nums[j];
-	});
-	std::cin >> k;
-	long long sum_nums = 0LL, sum_distance = 0LL, ans_distance = 0LL;
-	int ans_index = 0;
-	for (int i = 0; i < k; ++i) {
-		int num = nums[indices[i]];
-		sum_distance += (long long) i * num - sum_nums;
-		sum_nums += num;
-	}
-	ans_distance = sum_distance;
-	for (int i = k; i < n; ++i) {
-		int remove_num = nums[indices[i - k]];
-		int add_num = nums[indices[i]];
-		sum_nums -= remove_num;
-		sum_distance = sum_distance - sum_nums + 1LL * (k - 1) * remove_num + 1LL * (k - 1) * add_num - sum_nums;
-		sum_nums += add_num;
-		if (ans_distance > sum_distance) {
-			ans_index = i - k + 1;
-			ans_distance = sum_distance;
-		}
-	}
-	for (int i = ans_index; i < ans_index + k; ++i) {
-		std::cout << indices[i] + 1 << " ";
-	}
-	std::cout << std::endl;
+    int n, k;
+    std::cin >> n;
+    std::vector<int> nums(n);
+    for (int i = 0; i < n; ++i) {
+        std::cin >> nums[i];
+    }
+    std::vector<int> indices(n);
+    std::iota(indices.begin(), indices.end(), 0);
+    std::sort(indices.begin(), indices.end(), [&](const int &i, const int &j) {
+        return nums[i] < nums[j];
+    });
+    std::cin >> k;
+    long long sum_nums = 0LL, sum_distance = 0LL, ans_distance = 0LL;
+    int ans_index = 0;
+    for (int i = 0; i < k; ++i) {
+        int num = nums[indices[i]];
+        sum_distance += (long long) i * num - sum_nums;
+        sum_nums += num;
+    }
+    ans_distance = sum_distance;
+    for (int i = k; i < n; ++i) {
+        int remove_num = nums[indices[i - k]];
+        int add_num = nums[indices[i]];
+        sum_nums -= remove_num;
+        sum_distance = sum_distance - sum_nums + 1LL * (k - 1) * remove_num + 1LL * (k - 1) * add_num - sum_nums;
+        sum_nums += add_num;
+        if (ans_distance > sum_distance) {
+            ans_index = i - k + 1;
+            ans_distance = sum_distance;
+        }
+    }
+    for (int i = ans_index; i < ans_index + k; ++i) {
+        std::cout << indices[i] + 1 << " ";
+    }
+    std::cout << std::endl;
 }
 /*
 	int main() {
