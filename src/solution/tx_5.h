@@ -4,6 +4,7 @@
 #include "main.h"
 
 class TX_5 {
+ public:
     void solution() {
         int m, n;
         cin >> m >> n;
