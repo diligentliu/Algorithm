@@ -9,6 +9,7 @@
 #include "lc148.h"
 #include "lc1553.h"
 #include "lc1600.h"
+#include "lc1625.h"
 #include "lc1702.h"
 #include "lc1793.h"
 #include "lc1953.h"

@@ -54,7 +54,9 @@ class Solution {
 
 #ifdef LSK_LOCAL
     TEST(LC_3067, countPairsOfConnectableServers(Test::edges, Test::signalSpeed));
+#endif
 };
+#ifdef LSK_LOCAL
 }
 #endif
 

@@ -53,7 +53,9 @@ class Solution {
 
 #ifdef LSK_LOCAL
     TEST(LCR_170, reversePairs(Test::record));
+#endif
 };
+#ifdef LSK_LOCAL
 }  // namespace LCR_170
 #endif
 

@@ -71,7 +71,9 @@ class Solution {
 
 #ifdef LSK_LOCAL
     TEST(LC_3072, resultArray(Test::nums));
+#endif
 };
+#ifdef LSK_LOCAL
 }  // namespace LC_3072
 #endif
 

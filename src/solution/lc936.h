@@ -65,7 +65,9 @@ class Solution {
 
 #ifdef LSK_LOCAL
     TEST(LC_936, minAreaFreeRect(Test::points));
+#endif
 };
+#ifdef LSK_LOCAL
 }  // namespace LC_936
 #endif
 

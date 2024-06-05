@@ -25,7 +25,9 @@ class Solution {
 
 #ifdef LSK_LOCAL
     TEST(LC_2834, minimumPossibleSum(Test::n, Test::target));
+#endif
 };
+#ifdef LSK_LOCAL
 }  // namespace LC_2834
 #endif
 
