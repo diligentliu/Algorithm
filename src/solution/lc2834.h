@@ -1,13 +1,15 @@
 #ifndef ALGORITHM_LC2834_H
 #define ALGORITHM_LC2834_H
 
+#ifdef LSK_LOCAL
 #include "main.h"
 
 namespace LC_2834 {
 
 namespace Test {
-    int n = 3, target = 3;
+int n = 3, target = 3;
 }
+#endif
 
 class Solution {
  public:
@@ -20,10 +22,11 @@ class Solution {
         return ((long long) (1 + m) * m / 2 +
                 ((long long) target + target + (n - m) - 1) * (n - m) / 2) % mod;
     }
+
 #ifdef LSK_LOCAL
     TEST(LC_2834, minimumPossibleSum(Test::n, Test::target));
-#endif
 };
 }  // namespace LC_2834
+#endif
 
 #endif //ALGORITHM_LC2834_H

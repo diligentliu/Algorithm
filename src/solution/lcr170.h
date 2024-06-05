@@ -1,6 +1,7 @@
 #ifndef ALGORITHM_LCR170_H
 #define ALGORITHM_LCR170_H
 
+#ifdef LSK_LOCAL
 #include "main.h"
 
 namespace LCR_170 {
@@ -8,6 +9,7 @@ namespace LCR_170 {
 namespace Test {
 vector<int> record = {9, 7, 5, 4, 6};
 }  // namespace Test
+#endif
 
 class Solution {
     vector<int> nums;
@@ -48,10 +50,11 @@ class Solution {
         sort(record, 0, n - 1);
         return ans;
     }
+
 #ifdef LSK_LOCAL
     TEST(LCR_170, reversePairs(Test::record));
-#endif
 };
 }  // namespace LCR_170
+#endif
 
 #endif //ALGORITHM_LCR170_H

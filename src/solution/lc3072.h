@@ -1,6 +1,7 @@
 #ifndef ALGORITHM_LC3072_H
 #define ALGORITHM_LC3072_H
 
+#ifdef LSK_LOCAL
 #include "main.h"
 
 namespace LC_3072 {
@@ -8,17 +9,21 @@ namespace LC_3072 {
 namespace Test {
 vector<int> nums = {2, 1, 3, 3};
 }  // namespace Test
+#endif
 
 class Fenwick {
  public:
     vector<int> tree;
+
     Fenwick(int n) : tree(n) {}
+
     void add(int i) {
         while (i < tree.size()) {
             tree[i]++;
             i += i & -i;
         }
     }
+
     int query(int i) {
         int sum = 0;
         while (i > 0) {
@@ -31,12 +36,12 @@ class Fenwick {
 
 class Solution {
  public:
-    vector<int> resultArray(vector<int>& nums) {
+    vector<int> resultArray(vector<int> &nums) {
         auto sorted = nums;
         sort(sorted.begin(), sorted.end());
         unordered_map<int, int> map;
         int i = 1;
-        for (const int &num : sorted) {
+        for (const int &num: sorted) {
             auto it = map.find(num);
             if (it == map.end()) {
                 map[num] = i++;
@@ -63,10 +68,11 @@ class Solution {
         arr1.insert(arr1.end(), arr2.begin(), arr2.end());
         return arr1;
     }
+
 #ifdef LSK_LOCAL
     TEST(LC_3072, resultArray(Test::nums));
-#endif
 };
 }  // namespace LC_3072
+#endif
 
 #endif //ALGORITHM_LC3072_H

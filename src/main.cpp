@@ -3,7 +3,7 @@
 
 int main() {
 #ifdef LSK_LOCAL
-    LC_3072::Solution::test();
+    LC_936::Solution::test();
 #else
     std::cout << "Hello, World!" << std::endl;
 #endif
