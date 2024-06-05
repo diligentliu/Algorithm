@@ -3,7 +3,13 @@
 
 #include "main.h"
 
-class LC_2834 {
+namespace LC_2834 {
+
+namespace Test {
+    int n = 3, target = 3;
+}
+
+class Solution {
  public:
     int minimumPossibleSum(int n, int target) {
         const int mod = 1e9 + 7;
@@ -14,11 +20,10 @@ class LC_2834 {
         return ((long long) (1 + m) * m / 2 +
                 ((long long) target + target + (n - m) - 1) * (n - m) / 2) % mod;
     }
-
-    static void test() {
-        int n = 3, target = 3;
-        cout << LC_2834().minimumPossibleSum(n, target) << endl;
-    }
+#ifdef LSK_LOCAL
+    TEST(LC_2834, minimumPossibleSum(Test::n, Test::target));
+#endif
 };
+}  // namespace LC_2834
 
 #endif //ALGORITHM_LC2834_H

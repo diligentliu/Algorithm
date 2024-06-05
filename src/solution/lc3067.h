@@ -4,6 +4,15 @@
 #include "main.h"
 
 namespace LC_3067 {
+
+namespace Test {
+vector<vector<int>> edges = {{0, 1, 1},
+                             {1, 2, 5},
+                             {2, 3, 13},
+                             {3, 4, 9},
+                             {4, 5, 2}};
+int signalSpeed = 1;
+}  // namespace Test
 class Solution {
  public:
     vector<int> countPairsOfConnectableServers(vector<vector<int>>& edges, int signalSpeed) {
@@ -19,7 +28,7 @@ class Solution {
             int cnt = sum % signalSpeed == 0;
             for (auto &[y, w] : graph[x]) {
                 if (y != father) {
-                    cnt + dfs(y, x, sum + w);
+                    cnt += dfs(y, x, sum + w);
                 }
             }
             return cnt;
@@ -40,15 +49,9 @@ class Solution {
         return ans;
     }
 
-    static void test() {
-        vector<vector<int>> edges = {{0, 1, 1},
-                                     {1, 2, 5},
-                                     {2, 3, 13},
-                                     {3, 4, 9},
-                                     {4, 5, 2}};
-        int signalSpeed = 1;
-        cout << Solution().countPairsOfConnectableServers(edges, signalSpeed) << endl;
-    }
+#ifdef LSK_LOCAL
+    TEST(LC_3067, countPairsOfConnectableServers(Test::edges, Test::signalSpeed));
+#endif
 };
 }
 

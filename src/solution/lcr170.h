@@ -3,7 +3,13 @@
 
 #include "main.h"
 
-class LCR_170 {
+namespace LCR_170 {
+
+namespace Test {
+vector<int> record = {9, 7, 5, 4, 6};
+}  // namespace Test
+
+class Solution {
     vector<int> nums;
     int ans = 0;
 
@@ -42,12 +48,10 @@ class LCR_170 {
         sort(record, 0, n - 1);
         return ans;
     }
-
-    static void test() {
-        vector<int> record = {9, 7, 5, 4, 6};
-        std::cout << LCR_170().reversePairs(record) << std::endl;
-    }
+#ifdef LSK_LOCAL
+    TEST(LCR_170, reversePairs(Test::record));
+#endif
 };
-
+}  // namespace LCR_170
 
 #endif //ALGORITHM_LCR170_H

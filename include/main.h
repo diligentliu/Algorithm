@@ -5,10 +5,23 @@
 #include "ListNode.h"
 #include "TreeNode.h"
 
+#define LSK_LOCAL
+
 using namespace std;
 using ll = long long;
 
 const int MOD = 1e9 + 7;
+
+/*
+ * 测试宏, 形如
+ *  static void test() {
+ *      std::cout << LC_3072::Solution::test() << std::endl;
+ *  }
+ */
+#define TEST(NAMESPACE, FUNCTION) \
+    static void test() { \
+        std::cout << NAMESPACE::Solution().FUNCTION << std::endl; \
+    }
 
 template<typename T>
 std::ostream &operator<<(std::ostream &out, const std::vector<T> &v) {

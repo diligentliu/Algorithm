@@ -2,6 +2,10 @@
 #include "solution.h"
 
 int main() {
-    LC_3067::Solution::test();
+#ifdef LSK_LOCAL
+    LC_3072::Solution::test();
+#else
+    std::cout << "Hello, World!" << std::endl;
+#endif
     return 0;
 }
