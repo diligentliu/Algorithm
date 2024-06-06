@@ -1,7 +1,7 @@
 #ifndef ALGORITHM_LC2834_H
 #define ALGORITHM_LC2834_H
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 #include "main.h"
 
 namespace LC_2834 {
@@ -23,11 +23,11 @@ class Solution {
                 ((long long) target + target + (n - m) - 1) * (n - m) / 2) % mod;
     }
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
     TEST(LC_2834, minimumPossibleSum(Test::n, Test::target));
 #endif
 };
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 }  // namespace LC_2834
 #endif
 

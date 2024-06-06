@@ -1,7 +1,7 @@
 #ifndef ALGORITHM_LC3072_H
 #define ALGORITHM_LC3072_H
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 #include "main.h"
 
 namespace LC_3072 {
@@ -69,11 +69,11 @@ class Solution {
         return arr1;
     }
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
     TEST(LC_3072, resultArray(Test::nums));
 #endif
 };
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 }  // namespace LC_3072
 #endif
 

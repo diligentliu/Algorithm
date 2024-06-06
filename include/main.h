@@ -5,7 +5,7 @@
 #include "ListNode.h"
 #include "TreeNode.h"
 
-#define LSK_LOCAL
+#define LOCAL_LEETCODE
 
 using namespace std;
 using ll = long long;

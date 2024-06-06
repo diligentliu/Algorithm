@@ -1,7 +1,7 @@
 #ifndef ALGORITHM_LCR170_H
 #define ALGORITHM_LCR170_H
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 #include "main.h"
 
 namespace LCR_170 {
@@ -51,11 +51,11 @@ class Solution {
         return ans;
     }
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
     TEST(LCR_170, reversePairs(Test::record));
 #endif
 };
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 }  // namespace LCR_170
 #endif
 

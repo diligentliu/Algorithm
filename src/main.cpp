@@ -2,8 +2,8 @@
 #include "solution.h"
 
 int main() {
-#ifdef LSK_LOCAL
-    LC_1625::Solution::test();
+#ifdef LOCAL_LEETCODE
+    LC_2938::Solution::test();
 #else
     std::cout << "Hello, World!" << std::endl;
 #endif

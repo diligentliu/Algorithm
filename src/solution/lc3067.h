@@ -1,7 +1,7 @@
 #ifndef ALGORITHM_LC3067_H
 #define ALGORITHM_LC3067_H
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 #include "main.h"
 
 namespace LC_3067 {
@@ -52,11 +52,11 @@ class Solution {
         return ans;
     }
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
     TEST(LC_3067, countPairsOfConnectableServers(Test::edges, Test::signalSpeed));
 #endif
 };
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 }
 #endif
 

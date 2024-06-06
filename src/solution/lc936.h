@@ -1,7 +1,7 @@
 #ifndef ALGORITHM_LC936_H
 #define ALGORITHM_LC936_H
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 #include "main.h"
 
 namespace LC_936 {
@@ -63,11 +63,11 @@ class Solution {
         return abs(ans - INT_MAX) < 1e-5 ? 0.0 : ans;
     }
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
     TEST(LC_936, minAreaFreeRect(Test::points));
 #endif
 };
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 }  // namespace LC_936
 #endif
 

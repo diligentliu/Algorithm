@@ -1,7 +1,7 @@
 #ifndef ALGORITHM_LC1625_H
 #define ALGORITHM_LC1625_H
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 #include "main.h"
 
 namespace LC_1625 {
@@ -56,11 +56,11 @@ class Solution {
         return ans;
     }
 
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
     TEST(LC_1625, findLexSmallestString(Test::s, Test::a, Test::b));
 #endif
 };
-#ifdef LSK_LOCAL
+#ifdef LOCAL_LEETCODE
 }  // namespace LC_1625
 #endif
 
