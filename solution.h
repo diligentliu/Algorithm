@@ -32,6 +32,7 @@
 #include "lc518.h"
 #include "lc75.h"
 #include "lc826.h"
+#include "lc927.h"
 #include "lc936.h"
 #include "lcr170.h"
 #include "mt11.h"
