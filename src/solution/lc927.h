@@ -13,7 +13,7 @@ vector<int> arr = {1, 1, 1, 0, 1, 0, 0, 1, 0, 1,
                    1, 0, 0, 1, 0, 1, 0, 0, 0, 1,
                    0, 0, 0, 0, 1, 1, 1, 0, 1, 0,
                    0, 1, 0, 1, 0, 0, 0, 1, 0, 0};
-}
+}  // namespace Test
 
 #endif
 
@@ -84,7 +84,7 @@ class Solution {
 };
 
 #ifdef LOCAL_LEETCODE
-}
+}  // namespace LC_927
 #endif
 
 #endif //ALGORITHM_LC927_H
