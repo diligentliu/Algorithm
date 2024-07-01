@@ -3,6 +3,8 @@ project(Algorithm)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_compile_options(-DLOCAL_LEETCODE)
+
 file(GLOB_RECURSE HEADER_FILES "src/solution/*.h")
 
 set(ALL_INCLUDES "")

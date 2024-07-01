@@ -5,8 +5,6 @@
 #include "ListNode.h"
 #include "TreeNode.h"
 
-#define LOCAL_LEETCODE
-
 using namespace std;
 using ll = long long;
 
@@ -15,7 +13,7 @@ const int MOD = 1e9 + 7;
 /*
  * 测试宏, 形如
  *  static void test() {
- *      std::cout << LC_3072::Solution::test() << std::endl;
+ *      std::cout << LC_3072::Solution::solution() << std::endl;
  *  }
  */
 #define TEST(NAMESPACE, FUNCTION) \
