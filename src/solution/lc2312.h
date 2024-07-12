@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC2312_H
-#define ALGORITHM_LC2312_H
+#pragma once
 
 #include "main.h"
 
@@ -38,6 +37,3 @@ class LC_2312 {
         std::cout << LC_2312().sellingWood(m, n, prices) << std::endl;
     }
 };
-
-
-#endif //ALGORITHM_LC2312_H

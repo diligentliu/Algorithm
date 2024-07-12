@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC2684_H
-#define ALGORITHM_LC2684_H
+#pragma once
 
 #include "main.h"
 
@@ -51,6 +50,3 @@ class LC_2684 {
         std::cout << LC_2684().maxMoves(grid) << std::endl;
     }
 };
-
-
-#endif //ALGORITHM_LC2684_H

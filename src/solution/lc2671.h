@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC2671_H
-#define ALGORITHM_LC2671_H
+#pragma once
 
 #include "main.h"
 
@@ -26,5 +25,3 @@ class FrequencyTracker {
         return freq[frequency];
     }
 };
-
-#endif //ALGORITHM_LC2671_H

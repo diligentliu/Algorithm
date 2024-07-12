@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_P1095_H
-#define ALGORITHM_P1095_H
+#pragma once
 
 #include <iostream>
 #include <vector>
@@ -32,5 +31,3 @@ void solution_p1095() {
         std::cout << "No" << std::endl << dp[t] << std::endl;
     }
 }
-
-#endif //ALGORITHM_P1095_H

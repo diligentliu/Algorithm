@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_TX_2_H
-#define ALGORITHM_TX_2_H
+#pragma once
 
 #include "main.h"
 
@@ -30,5 +29,3 @@ class TX_2 {
         return ans;
     }
 };
-
-#endif //ALGORITHM_TX_2_H

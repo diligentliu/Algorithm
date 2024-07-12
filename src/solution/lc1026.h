@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC1026_H
-#define ALGORITHM_LC1026_H
+#pragma once
 
 #include "main.h"
 
@@ -31,6 +30,3 @@ class LC_1026 {
         delete root;
     }
 };
-
-
-#endif //ALGORITHM_LC1026_H

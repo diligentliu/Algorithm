@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC518_H
-#define ALGORITHM_LC518_H
+#pragma once
 
 #include "main.h"
 
@@ -22,5 +21,3 @@ class LC_518 {
         std::cout << LC_518().change(amount, coins) << endl;
     }
 };
-
-#endif //ALGORITHM_LC518_H

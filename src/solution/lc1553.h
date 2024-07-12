@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC1553_H
-#define ALGORITHM_LC1553_H
+#pragma once
 
 #include "main.h"
 
@@ -27,5 +26,3 @@ class Solution {
     }
 };
 }
-
-#endif //ALGORITHM_LC1553_H

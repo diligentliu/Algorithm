@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC146_H
-#define ALGORITHM_LC146_H
+#pragma once
 
 #include "main.h"
 
@@ -43,5 +42,3 @@ class LC_146 {
         }
     }
 };
-
-#endif //ALGORITHM_LC146_H

@@ -1,5 +1,4 @@
-#ifndef LC826_H
-#define LC826_H
+#pragma once
 
 #include "main.h"
 
@@ -38,5 +37,3 @@ class Solution {
     }
 };
 } // namespace LC_826
-
-#endif //LC826_H

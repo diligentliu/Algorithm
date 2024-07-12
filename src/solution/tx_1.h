@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_TX_1_H
-#define ALGORITHM_TX_1_H
+#pragma once
 
 #include "main.h"
 
@@ -23,5 +22,3 @@ class TX_1 {
         cout << count(good_points.begin(), good_points.end(), true) << endl;
     }
 };
-
-#endif //ALGORITHM_TX_1_H

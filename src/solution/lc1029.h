@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC1029_H
-#define ALGORITHM_LC1029_H
+#pragma once
 
 #include "main.h"
 
@@ -29,6 +28,3 @@ class LC_1029 {
         cout << LC_1029().twoCitySchedCost(costs) << endl;
     }
 };
-
-
-#endif //ALGORITHM_LC1029_H

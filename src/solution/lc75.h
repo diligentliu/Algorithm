@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC75_H
-#define ALGORITHM_LC75_H
+#pragma once
 
 #include "main.h"
 
@@ -28,5 +27,3 @@ class LC_75 {
         std::cout << nums << std::endl;
     }
 };
-
-#endif //ALGORITHM_LC75_H

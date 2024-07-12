@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC322_H
-#define ALGORITHM_LC322_H
+#pragma once
 
 #include "main.h"
 
@@ -24,5 +23,3 @@ class LC_322 {
         std::cout << LC_322().coinChange(coins, amount) << std::endl;
     }
 };
-
-#endif //ALGORITHM_LC322_H

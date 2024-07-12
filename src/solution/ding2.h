@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_DING2_H
-#define ALGORITHM_DING2_H
+#pragma once
 
 #include "main.h"
 
@@ -51,6 +50,3 @@ class Ding_2 {
         std::cout << std::boolalpha << Ding_2().solution(nums2) << std::endl;
     }
 };
-
-
-#endif //ALGORITHM_DING2_H

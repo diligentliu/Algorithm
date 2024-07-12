@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC227_H
-#define ALGORITHM_LC227_H
+#pragma once
 
 #include "main.h"
 
@@ -40,5 +39,3 @@ class LC_227 {
         cout << LC_227().calculate(s) << endl;
     }
 };
-
-#endif //ALGORITHM_LC227_H

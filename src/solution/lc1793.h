@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC1793_H
-#define ALGORITHM_LC1793_H
+#pragma once
 
 #include "main.h"
 
@@ -60,5 +59,3 @@ class LC_1793 {
         std::cout << LC_1793().maximumScore(nums, k) << std::endl;
     }
 };
-
-#endif //ALGORITHM_LC1793_H

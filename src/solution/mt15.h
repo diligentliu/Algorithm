@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_MT15_H
-#define ALGORITHM_MT15_H
+#pragma once
 
 #include "main.h"
 
@@ -70,6 +69,3 @@ class MT_1_5 {
         }
     }
 };
-
-
-#endif //ALGORITHM_MT15_H

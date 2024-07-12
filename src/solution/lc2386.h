@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC2386_H
-#define ALGORITHM_LC2386_H
+#pragma once
 
 #include "main.h"
 
@@ -50,5 +49,3 @@ class LC_2386 {
         cout << LC_2386().kSum(nums, k) << endl;
     }
 };
-
-#endif //ALGORITHM_LC2386_H

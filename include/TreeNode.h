@@ -1,11 +1,9 @@
+#pragma once
+
 #include <iostream>
 #include <queue>
 #include <list>
 #include <string>
-
-#ifndef LEETCODE_CPP_TREENODE_H
-#define LEETCODE_CPP_TREENODE_H
-
 
 class TreeNode {
  private:
@@ -33,6 +31,3 @@ class TreeNode {
 
     friend std::ostream &operator<<(std::ostream &out, TreeNode *root);
 };
-
-
-#endif //LEETCODE_CPP_TREENODE_H

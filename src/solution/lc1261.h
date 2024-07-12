@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC1261_H
-#define ALGORITHM_LC1261_H
+#pragma once
 
 #include "main.h"
 
@@ -21,6 +20,3 @@ class FindElements {
         return true;
     }
 };
-
-
-#endif //ALGORITHM_LC1261_H

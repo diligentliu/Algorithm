@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC2617_H
-#define ALGORITHM_LC2617_H
+#pragma once
 
 #include "main.h"
 
@@ -58,5 +57,3 @@ class LC_2617 {
         std::cout << LC_2617().minimumVisitedCells(grid) << std::endl;
     }
 };
-
-#endif //ALGORITHM_LC2617_H

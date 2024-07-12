@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC1625_H
-#define ALGORITHM_LC1625_H
+#pragma once
 
 #ifdef LOCAL_LEETCODE
 #include "main.h"
@@ -63,5 +62,3 @@ class Solution {
 #ifdef LOCAL_LEETCODE
 }  // namespace LC_1625
 #endif
-
-#endif //ALGORITHM_LC1625_H

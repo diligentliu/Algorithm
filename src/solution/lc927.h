@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC927_H
-#define ALGORITHM_LC927_H
+#pragma once
 
 #ifdef LOCAL_LEETCODE
 
@@ -86,5 +85,3 @@ class Solution {
 #ifdef LOCAL_LEETCODE
 }  // namespace LC_927
 #endif
-
-#endif //ALGORITHM_LC927_H
