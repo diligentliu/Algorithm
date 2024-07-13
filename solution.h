@@ -28,6 +28,7 @@
 #include "lc2938.h"
 #include "lc2972.h"
 #include "lc2974.h"
+#include "lc3011.h"
 #include "lc3040.h"
 #include "lc3067.h"
 #include "lc3072.h"
