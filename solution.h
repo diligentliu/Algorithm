@@ -30,6 +30,7 @@
 #include "lc3067.h"
 #include "lc3072.h"
 #include "lc310.h"
+#include "lc3112.h"
 #include "lc322.h"
 #include "lc42.h"
 #include "lc518.h"
