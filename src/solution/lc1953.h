@@ -1,5 +1,4 @@
-#ifndef LC1953_H
-#define LC1953_H
+#pragma once
 
 #include "main.h"
 
@@ -18,5 +17,3 @@ class Solution {
     }
 };
 } // namespace LC_1953
-
-#endif //LC1953_H

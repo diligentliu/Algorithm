@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_MT11_H
-#define ALGORITHM_MT11_H
+#pragma once
 
 #include "main.h"
 
@@ -18,6 +17,3 @@ class MT_1_1 {
         return min(ans + k, n);
     }
 };
-
-
-#endif //ALGORITHM_MT11_H

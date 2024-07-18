@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_TX_4_H
-#define ALGORITHM_TX_4_H
+#pragma once
 
 #include "main.h"
 
@@ -30,5 +29,3 @@ class TX_4 {
         cout << dp[n][k] << endl;
     }
 };
-
-#endif //ALGORITHM_TX_4_H

@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC3067_H
-#define ALGORITHM_LC3067_H
+#pragma once
 
 #ifdef LOCAL_LEETCODE
 #include "main.h"
@@ -59,5 +58,3 @@ class Solution {
 #ifdef LOCAL_LEETCODE
 }
 #endif
-
-#endif //ALGORITHM_LC3067_H

@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_MT13_H
-#define ALGORITHM_MT13_H
+#pragma once
 
 #include "main.h"
 
@@ -35,6 +34,3 @@ class MT_1_3 {
         }
     }
 };
-
-
-#endif //ALGORITHM_MT13_H

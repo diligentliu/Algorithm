@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC3072_H
-#define ALGORITHM_LC3072_H
+#pragma once
 
 #ifdef LOCAL_LEETCODE
 #include "main.h"
@@ -76,5 +75,3 @@ class Solution {
 #ifdef LOCAL_LEETCODE
 }  // namespace LC_3072
 #endif
-
-#endif //ALGORITHM_LC3072_H

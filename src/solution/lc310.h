@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC310_H
-#define ALGORITHM_LC310_H
+#pragma once
 
 #include "main.h"
 
@@ -54,6 +53,3 @@ class LC_310 {
         std::cout << LC_310().findMinHeightTrees(n, edges) << std::endl;
     }
 };
-
-
-#endif //ALGORITHM_LC310_H

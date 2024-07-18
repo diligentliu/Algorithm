@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_MT14_H
-#define ALGORITHM_MT14_H
+#pragma once
 
 #include "main.h"
 
@@ -44,6 +43,3 @@ class MT_1_4 {
         cout << ans << endl;
     }
 };
-
-
-#endif //ALGORITHM_MT14_H

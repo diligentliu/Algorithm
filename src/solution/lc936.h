@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC936_H
-#define ALGORITHM_LC936_H
+#pragma once
 
 #ifdef LOCAL_LEETCODE
 #include "main.h"
@@ -70,5 +69,3 @@ class Solution {
 #ifdef LOCAL_LEETCODE
 }  // namespace LC_936
 #endif
-
-#endif //ALGORITHM_LC936_H

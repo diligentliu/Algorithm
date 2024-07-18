@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_MAIN_H
-#define ALGORITHM_MAIN_H
+#pragma once
 
 #include "stdc++.h"
 #include "ListNode.h"
@@ -40,5 +39,3 @@ std::ostream &operator<<(std::ostream &out, const std::vector<std::vector<T>> &v
     out << "\b\b]";
     return out;
 }
-
-#endif //ALGORITHM_MAIN_H

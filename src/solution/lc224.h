@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC224_H
-#define ALGORITHM_LC224_H
+#pragma once
 
 #include "main.h"
 
@@ -78,5 +77,3 @@ class LC_224 {
         cout << LC_224().calculate(s) << endl;
     }
 };
-
-#endif //ALGORITHM_LC224_H

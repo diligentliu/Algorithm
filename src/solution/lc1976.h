@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC1976_H
-#define ALGORITHM_LC1976_H
+#pragma once
 
 #include "main.h"
 
@@ -96,5 +95,3 @@ class LC_1976 {
         cout << LC_1976().countPaths(n, roads) << endl;
     }
 };
-
-#endif //ALGORITHM_LC1976_H

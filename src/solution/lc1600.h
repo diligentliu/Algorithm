@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC1600_H
-#define ALGORITHM_LC1600_H
+#pragma once
 
 #include "main.h"
 
@@ -34,5 +33,3 @@ class ThroneInheritance {
         return ans;
     }
 };
-
-#endif //ALGORITHM_LC1600_H

@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LISTNODE_H
-#define ALGORITHM_LISTNODE_H
+#pragma once
 
 #include <iostream>
 #include <queue>
@@ -34,5 +33,3 @@ class ListNode {
 
     friend std::ostream &operator<<(std::ostream &out, ListNode *root);
 };
-
-#endif //ALGORITHM_LISTNODE_H

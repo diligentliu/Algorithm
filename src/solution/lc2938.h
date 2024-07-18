@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC2938_H
-#define ALGORITHM_LC2938_H
+#pragma once
 
 #ifdef LOCAL_LEETCODE
 #include "main.h"
@@ -57,5 +56,3 @@ class Solution {
 #ifdef LOCAL_LEETCODE
 }  // namespace LC_2938
 #endif
-
-#endif //ALGORITHM_LC2938_H

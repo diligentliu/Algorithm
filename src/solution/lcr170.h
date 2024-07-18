@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LCR170_H
-#define ALGORITHM_LCR170_H
+#pragma once
 
 #ifdef LOCAL_LEETCODE
 #include "main.h"
@@ -58,5 +57,3 @@ class Solution {
 #ifdef LOCAL_LEETCODE
 }  // namespace LCR_170
 #endif
-
-#endif //ALGORITHM_LCR170_H

@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC148_H
-#define ALGORITHM_LC148_H
+#pragma once
 
 #include "main.h"
 
@@ -139,6 +138,3 @@ class LC_148 {
         delete head;
     }
 };
-
-
-#endif //ALGORITHM_LC148_H

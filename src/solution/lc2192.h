@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC2192_H
-#define ALGORITHM_LC2192_H
+#pragma once
 
 #include <iostream>
 #include <vector>
@@ -53,6 +52,3 @@ class LC_2192 {
         cout << LC_2192().getAncestors(n, edges) << endl;
     }
 };
-
-
-#endif //ALGORITHM_LC2192_H

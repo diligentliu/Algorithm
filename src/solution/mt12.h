@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_MT12_H
-#define ALGORITHM_MT12_H
+#pragma once
 
 #include "main.h"
 
@@ -10,6 +9,3 @@ class MT_1_2 {
         cout << per_sum + l * cnt << " " << per_sum + r * cnt << endl;
     }
 };
-
-
-#endif //ALGORITHM_MT12_H

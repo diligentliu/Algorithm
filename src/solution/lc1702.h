@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC1702_H
-#define ALGORITHM_LC1702_H
+#pragma once
 
 #include "main.h"
 
@@ -31,6 +30,3 @@ class LC_1702 {
         cout << LC_1702().maximumBinaryString(binary) << endl;
     }
 };
-
-
-#endif //ALGORITHM_LC1702_H

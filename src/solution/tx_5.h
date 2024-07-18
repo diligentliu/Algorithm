@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_TX_5_H
-#define ALGORITHM_TX_5_H
+#pragma once
 
 #include "main.h"
 
@@ -47,5 +46,3 @@ class TX_5 {
         cout << ans << endl;
     }
 };
-
-#endif //ALGORITHM_TX_5_H

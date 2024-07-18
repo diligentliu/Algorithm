@@ -1,5 +1,4 @@
-#ifndef ALGORITHM_LC42_H
-#define ALGORITHM_LC42_H
+#pragma once
 
 #include <iostream>
 #include <vector>
@@ -82,6 +81,3 @@ class LC_42 {
         cout << LC_42().trap(height) << endl;
     }
 };
-
-
-#endif //ALGORITHM_LC42_H
