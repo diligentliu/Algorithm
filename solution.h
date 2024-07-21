@@ -4,6 +4,7 @@
 #include "ding2.h"
 #include "lc1026.h"
 #include "lc1029.h"
+#include "lc1186.h"
 #include "lc124.h"
 #include "lc1261.h"
 #include "lc146.h"
