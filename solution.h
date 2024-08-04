@@ -43,6 +43,7 @@
 #include "lc322.h"
 #include "lc42.h"
 #include "lc518.h"
+#include "lc572.h"
 #include "lc75.h"
 #include "lc807.h"
 #include "lc826.h"
