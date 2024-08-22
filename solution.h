@@ -39,6 +39,7 @@
 #include "lc310.h"
 #include "lc3102.h"
 #include "lc3112.h"
+#include "lc3133.h"
 #include "lc3137.h"
 #include "lc3143.h"
 #include "lc322.h"
