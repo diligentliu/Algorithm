@@ -17,6 +17,7 @@
 #include "lc1953.h"
 #include "lc1976.h"
 #include "lc1986.h"
+#include "lc2024.h"
 #include "lc2192.h"
 #include "lc224.h"
 #include "lc227.h"
