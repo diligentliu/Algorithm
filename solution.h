@@ -45,6 +45,7 @@
 #include "lc3143.h"
 #include "lc3153.h"
 #include "lc322.h"
+#include "lc328.h"
 #include "lc42.h"
 #include "lc518.h"
 #include "lc572.h"
