@@ -26,6 +26,7 @@
 #include "lc2617.h"
 #include "lc2671.h"
 #include "lc2684.h"
+#include "lc2708.h"
 #include "lc2834.h"
 #include "lc2850.h"
 #include "lc2938.h"

@@ -2,7 +2,7 @@
 
 int main() {
 #ifdef LOCAL_LEETCODE
-    LC_328::Solution::test();
+    LC_2708::Solution::test();
 #else
     std::cout << "Hello, World!" << std::endl;
 #endif
