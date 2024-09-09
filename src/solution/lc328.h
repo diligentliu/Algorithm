@@ -12,8 +12,8 @@ std::unique_ptr<ListNode> head = std::make_unique<ListNode>("[2,1,3,5,6,4,7]");
 class Solution {
  public:
     ListNode* oddEvenList(ListNode* head) {
-        std::unique_ptr<ListNode> dummy = std::make_unique<ListNode>();
-        ListNode* cur = head, *per = head, *dummy_pos = dummy.get();
+        ListNode dummy;
+        ListNode* cur = head, *per = head, *dummy_pos = &dummy;
         int cnt = 1;
         while (cur) {
             if (cnt % 2 == 0) {
@@ -29,8 +29,8 @@ class Solution {
             ++cnt;
         }
         if (per) {
-            per->next = dummy->next;
-            dummy->next = nullptr;
+            per->next = dummy.next;
+            dummy.next = nullptr;
         }
         return head;
     }

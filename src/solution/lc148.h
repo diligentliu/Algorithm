@@ -21,8 +21,8 @@ class LC_148 {
     }
 
     ListNode *merge(ListNode *front, ListNode *back) {
-        ListNode *dummy = new ListNode(-1);
-        ListNode *p = front, *q = back, *r = dummy;
+        ListNode dummy;
+        ListNode *p = front, *q = back, *r = &dummy;
         while (p != nullptr && q != nullptr) {
             if (p->val <= q->val) {
                 r->next = p;
@@ -38,9 +38,8 @@ class LC_148 {
         } else if (q != nullptr) {
             r->next = q;
         }
-        r = dummy->next;
-        dummy->next = nullptr;
-        delete dummy;
+        r = dummy.next;
+        dummy.next = nullptr;
         return r;
     }
 
@@ -65,8 +64,8 @@ class LC_148 {
      * 非递归写法 空间复杂度 O(1)
      */
     ListNode *merge(ListNode *front, ListNode *back) {
-        ListNode *dummy = new ListNode(-1);
-        ListNode *p = front, *q = back, *r = dummy;
+        ListNode dummy;
+        ListNode *p = front, *q = back, *r = &dummy;
         while (p != nullptr && q != nullptr) {
             if (p->val <= q->val) {
                 r->next = p;
@@ -82,9 +81,8 @@ class LC_148 {
         } else if (q != nullptr) {
             r->next = q;
         }
-        r = dummy->next;
-        dummy->next = nullptr;
-        delete dummy;
+        r = dummy.next;
+        dummy.next = nullptr;
         return r;
     }
 
@@ -98,9 +96,9 @@ class LC_148 {
             ++length;
             node = node->next;
         }
-        ListNode *dummy = new ListNode(0, head);
+        ListNode dummy(0, head);
         for (int sub_len = 1; sub_len < length; sub_len <<= 1) {
-            ListNode *pre = dummy, *cur = dummy->next;
+            ListNode *pre = &dummy, *cur = dummy.next;
             while (cur != nullptr) {
                 ListNode *p = cur;
                 for (int i = 1; i < sub_len && cur->next != nullptr; ++i) {
@@ -125,16 +123,14 @@ class LC_148 {
                 cur = next;
             }
         }
-        ListNode *ans = dummy->next;
-        dummy->next = nullptr;
-        delete dummy;
+        ListNode *ans = dummy.next;
+        dummy.next = nullptr;
         return ans;
     }
 
     static void test() {
         std::string s = "[-1,5,3,4,0]";
-        ListNode *head = new ListNode(s);
-        std::cout << LC_148().sortList(head) << std::endl;
-        delete head;
+        ListNode head(s);
+        std::cout << LC_148().sortList(&head) << std::endl;
     }
 };
